@@ -134,11 +134,15 @@ components:
       example:
         stext: stext
         _id: _id
+        title: title
       properties:
         _id:
+          type: string
+        title:
           type: string
         stext:
           type: string
       required:
       - stext
+      - title
       type: object
